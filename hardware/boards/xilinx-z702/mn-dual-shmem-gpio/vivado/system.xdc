@@ -1,46 +1,105 @@
+#####PCP_BENCHMARK
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[7]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[6]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[5]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[4]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[3]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[2]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[1]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {BENCHMARK_PIO_tri_io[0]}]
+set_property PACKAGE_PIN AB20 [get_ports {BENCHMARK_PIO_tri_io[7]}]
+set_property PACKAGE_PIN AB19 [get_ports {BENCHMARK_PIO_tri_io[6]}]
+set_property PACKAGE_PIN W13 [get_ports {BENCHMARK_PIO_tri_io[5]}]
+set_property PACKAGE_PIN V13 [get_ports {BENCHMARK_PIO_tri_io[4]}]
+set_property PACKAGE_PIN AB16 [get_ports {BENCHMARK_PIO_tri_io[3]}]
+set_property PACKAGE_PIN AA16 [get_ports {BENCHMARK_PIO_tri_io[2]}]
+set_property PACKAGE_PIN V15 [get_ports {BENCHMARK_PIO_tri_io[1]}]
+set_property PACKAGE_PIN V14 [get_ports {BENCHMARK_PIO_tri_io[0]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[7]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[6]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[5]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[4]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[3]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[2]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[1]}]
+set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[0]}]
+########################################################################
+
+#HOST_BENCHMARK
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[7]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[6]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[5]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[4]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[3]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[2]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[1]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {HOST_BENCHMARK_PIO_tri_io[0]}]
+set_property PACKAGE_PIN U16 [get_ports {HOST_BENCHMARK_PIO_tri_io[7]}]
+set_property PACKAGE_PIN U15 [get_ports {HOST_BENCHMARK_PIO_tri_io[6]}]
+set_property PACKAGE_PIN AB17 [get_ports {HOST_BENCHMARK_PIO_tri_io[5]}]
+set_property PACKAGE_PIN AA17 [get_ports {HOST_BENCHMARK_PIO_tri_io[4]}]
+set_property PACKAGE_PIN U21 [get_ports {HOST_BENCHMARK_PIO_tri_io[3]}]
+set_property PACKAGE_PIN T21 [get_ports {HOST_BENCHMARK_PIO_tri_io[2]}]
+set_property PACKAGE_PIN V17 [get_ports {HOST_BENCHMARK_PIO_tri_io[1]}]
+set_property PACKAGE_PIN U17 [get_ports {HOST_BENCHMARK_PIO_tri_io[0]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[7]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[6]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[5]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[4]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[3]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[2]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[1]}]
+set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[0]}]
+########################################################################
+
+#####ON BOARD LEDS
+set_property IOSTANDARD LVCMOS25 [get_ports {LEDS_6BIT_tri_o[5]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {LEDS_6BIT_tri_o[4]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {LEDS_6BIT_tri_o[3]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {LEDS_6BIT_tri_o[2]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {LEDS_6BIT_tri_o[1]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {LEDS_6BIT_tri_o[0]}]
+set_property PACKAGE_PIN W17 [get_ports {LEDS_6BIT_tri_o[5]}]
+set_property PACKAGE_PIN W5 [get_ports {LEDS_6BIT_tri_o[4]}]
+set_property PACKAGE_PIN V7 [get_ports {LEDS_6BIT_tri_o[3]}]
+set_property PACKAGE_PIN W10 [get_ports {LEDS_6BIT_tri_o[2]}]
+set_property PACKAGE_PIN P18 [get_ports {LEDS_6BIT_tri_o[1]}]
+set_property PACKAGE_PIN P17 [get_ports {LEDS_6BIT_tri_o[0]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[5]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[4]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[3]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[2]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[1]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[0]}]
+########################################################################
+
+####POWERLINK NODESWITCH
+set_property IOSTANDARD LVCMOS25 [get_ports {NODE_SWITCHES_tri_io[1]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {NODE_SWITCHES_tri_io[0]}]
+set_property PACKAGE_PIN W6 [get_ports {NODE_SWITCHES_tri_io[1]}]
+set_property PACKAGE_PIN W7 [get_ports {NODE_SWITCHES_tri_io[0]}]
+set_property PIO_DIRECTION BIDIR [get_ports {node_switches_tri_io[1]}]
+set_property PIO_DIRECTION BIDIR [get_ports {node_switches_tri_io[0]}]
+########################################################################
+
+####POWERLINK STATUS LEDS
+set_property IOSTANDARD LVCMOS25 [get_ports {POWERLINK_LED_tri_o[1]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {POWERLINK_LED_tri_o[0]}]
+set_property PACKAGE_PIN D15 [get_ports {POWERLINK_LED_tri_o[0]}]
+set_property PACKAGE_PIN E15 [get_ports {POWERLINK_LED_tri_o[1]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {powerlink_led_tri_o[0]}]
+set_property PIO_DIRECTION OUTPUT [get_ports {powerlink_led_tri_o[1]}]
+########################################################################
+
+set_property PACKAGE_PIN N17 [get_ports {SMI_mdio_io[1]}]
+set_property PACKAGE_PIN N15 [get_ports {SMI_mdio_io[0]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {SMI_mdio_io[1]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {SMI_mdio_io[0]}]
+
 ###SYSTEM CLOCK and RESET
 set_property PACKAGE_PIN F19 [get_ports reset]
 set_property IOSTANDARD LVCMOS25 [get_ports reset]
 set_property PIO_DIRECTION INPUT [get_ports reset]
-########################################################################
-
-#####ON BOARD LEDS
-set_property PACKAGE_PIN P17 [get_ports {leds_6bit_tri_o[0]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {leds_6bit_tri_o[0]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[0]}]
-set_property PACKAGE_PIN P18 [get_ports {leds_6bit_tri_o[1]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {leds_6bit_tri_o[1]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[1]}]
-set_property PACKAGE_PIN W10 [get_ports {leds_6bit_tri_o[2]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {leds_6bit_tri_o[2]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[2]}]
-set_property PACKAGE_PIN V7 [get_ports {leds_6bit_tri_o[3]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {leds_6bit_tri_o[3]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[3]}]
-set_property PACKAGE_PIN W5 [get_ports {leds_6bit_tri_o[4]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {leds_6bit_tri_o[4]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[4]}]
-set_property PACKAGE_PIN W17 [get_ports {leds_6bit_tri_o[5]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {leds_6bit_tri_o[5]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {leds_6bit_tri_o[5]}]
-########################################################################
-
-####POWERLINK STATUS LEDS
-set_property PACKAGE_PIN D15 [get_ports {powerlink_led_tri_o[0]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {powerlink_led_tri_o[0]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {powerlink_led_tri_o[0]}]
-set_property PACKAGE_PIN E15 [get_ports {powerlink_led_tri_o[1]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {powerlink_led_tri_o[1]}]
-set_property PIO_DIRECTION OUTPUT [get_ports {powerlink_led_tri_o[1]}]
-########################################################################
-
-####POWERLINK NODESWITCH
-set_property PACKAGE_PIN W7 [get_ports {node_switches_tri_io[0]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {node_switches_tri_io[0]}]
-set_property PIO_DIRECTION BIDIR [get_ports {node_switches_tri_io[0]}]
-set_property PACKAGE_PIN W6 [get_ports {node_switches_tri_io[1]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {node_switches_tri_io[1]}]
-set_property PIO_DIRECTION BIDIR [get_ports {node_switches_tri_io[1]}]
 ########################################################################
 
 ###########FMC (1)
@@ -169,62 +228,6 @@ set_property IOSTANDARD LVCMOS25 [get_ports {MII_rxd[4]}]
 set_property PIO_DIRECTION INPUT [get_ports {MII_rxd[4]}]
 ########################################################################
 
-####FMC (2)
-### Connector (FMC-105-DEBUG J1)
-#HOST_BENCHMARK
-set_property PACKAGE_PIN U17 [get_ports {host_benchmark_pio_tri_io[0]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[0]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[0]}]
-set_property PACKAGE_PIN V17 [get_ports {host_benchmark_pio_tri_io[1]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[1]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[1]}]
-set_property PACKAGE_PIN T21 [get_ports {host_benchmark_pio_tri_io[2]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[2]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[2]}]
-set_property PACKAGE_PIN U21 [get_ports {host_benchmark_pio_tri_io[3]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[3]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[3]}]
-set_property PACKAGE_PIN AA17 [get_ports {host_benchmark_pio_tri_io[4]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[4]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[4]}]
-set_property PACKAGE_PIN AB17 [get_ports {host_benchmark_pio_tri_io[5]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[5]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[5]}]
-set_property PACKAGE_PIN U15 [get_ports {host_benchmark_pio_tri_io[6]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[6]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[6]}]
-set_property PACKAGE_PIN U16 [get_ports {host_benchmark_pio_tri_io[7]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {host_benchmark_pio_tri_io[7]}]
-set_property PIO_DIRECTION BIDIR [get_ports {host_benchmark_pio_tri_io[7]}]
-########################################################################
-
-#####PCP_BENCHMARK
-set_property PACKAGE_PIN V14 [get_ports {benchmark_pio_tri_io[0]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[0]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[0]}]
-set_property PACKAGE_PIN V15 [get_ports {benchmark_pio_tri_io[1]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[1]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[1]}]
-set_property PACKAGE_PIN AA16 [get_ports {benchmark_pio_tri_io[2]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[2]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[2]}]
-set_property PACKAGE_PIN AB16 [get_ports {benchmark_pio_tri_io[3]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[3]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[3]}]
-set_property PACKAGE_PIN V13 [get_ports {benchmark_pio_tri_io[4]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[4]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[4]}]
-set_property PACKAGE_PIN W13 [get_ports {benchmark_pio_tri_io[5]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[5]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[5]}]
-set_property PACKAGE_PIN AB19 [get_ports {benchmark_pio_tri_io[6]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[6]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[6]}]
-set_property PACKAGE_PIN AB20 [get_ports {benchmark_pio_tri_io[7]}]
-set_property IOSTANDARD LVCMOS25 [get_ports {benchmark_pio_tri_io[7]}]
-set_property PIO_DIRECTION BIDIR [get_ports {benchmark_pio_tri_io[7]}]
-########################################################################
-
 #VIRTUAL CLOCK
 create_clock -period 10.000 -name clock_out1 -add [get_nets system_i/clock_generator/clk_out1]
 create_clock -period 20.000 -name clock_out2 -add [get_nets system_i/clock_generator/clk_out2]
@@ -332,3 +335,4 @@ set_clock_groups -asynchronous -group [get_clocks {system_i/proc_sys_rst/periphe
 set_false_path -reset_path -from [get_clocks clk_mii0_rx] -to [get_clocks clk_mii0_rx]
 set_false_path -reset_path -from [get_clocks clk_mii1_rx] -to [get_clocks clk_mii1_rx]
 ########################################################################
+

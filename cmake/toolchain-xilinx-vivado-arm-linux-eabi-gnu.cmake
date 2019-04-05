@@ -28,7 +28,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ################################################################################
 
-SET(XILINX_SDK_DIR /opt/Xilinx/SDK/2016.2 CACHE STRING "Xilinx SDK toolchain path")
+SET(XILINX_SDK_DIR /opt/Xilinx/SDK/2018.2 CACHE STRING "Xilinx SDK toolchain path")
 
 ################################################################################
 # Name of the target platform

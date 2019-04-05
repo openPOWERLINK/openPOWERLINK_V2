@@ -545,7 +545,7 @@ static OMETH_H        omethCreateInt
         hEth->phyCmdWrite[hEth->phyCount] = data | PHY_REG_WRITE;
 
         hEth->phyCount++;
-        omethPhyRead(hEth, hEth->phyCount-1, 1, &data);    // get register 1 to count linked ports at startup
+        omethPhyRead(hEth, i, 1, &data);    // get register 1 to count linked ports at startup
 
         if(data==0xFFFF)
         {
