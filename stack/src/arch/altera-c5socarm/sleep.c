@@ -147,8 +147,8 @@ int msleep(unsigned long milliSeconds_p)
 {
     uint64_t            startTickStamp = alt_globaltmr_get64();
     uint64_t            waitTickCount = getTimerTicksFromScaled(ALT_GPT_CPU_GLOBAL_TMR, SECS_TO_MILLISECS, milliSeconds_p);
-    volatile uint32_t*  pGlbTimerRegCntBaseLow = (volatile uint32_t*)(GLOBALTMR_BASE + GLOBALTMR_CNTR_LO_REG_OFFSET);
-    volatile uint32_t*  pGlbTimerRegCntBaseHigh = (volatile uint32_t*)(GLOBALTMR_BASE + GLOBALTMR_CNTR_HI_REG_OFFSET);
+    volatile uint32_t*  pGlbTimerRegCntBaseLow = (volatile uint32_t*)(ALT_GLOBALTMR_BASE + ALT_GLOBALTMR_CNTR_LO_REG_OFFSET);
+    volatile uint32_t*  pGlbTimerRegCntBaseHigh = (volatile uint32_t*)(ALT_GLOBALTMR_BASE + ALT_GLOBALTMR_CNTR_HI_REG_OFFSET);
     uint64_t            curTickStamp = 0;
     uint32_t            temp = 0;
     uint32_t            hi = 0;

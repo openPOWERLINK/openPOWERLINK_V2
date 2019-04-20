@@ -373,7 +373,7 @@ static int initializeTimer(void)
     // set the comparator value to the maximum global timer value even though we do not use it
     // the 'alt_gpt_curtime_millisecs_get()' api uses this to determine current time
     if ((alt_globaltmr_autoinc_set(1) != ALT_E_SUCCESS) ||
-        (alt_globaltmr_comp_set64(GLOBALTMR_MAX) != ALT_E_SUCCESS))
+        (alt_globaltmr_comp_set64(ALT_GLOBALTMR_MAX) != ALT_E_SUCCESS))
     {
         TRACE("Auto increment mode could not be enabled for this timer!\n");
     }

@@ -131,7 +131,7 @@ INCLUDE_DIRECTORIES(
 ################################################################################
 # Set architecture specific definitions
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${ALT_HOST_CFLAGS} -std=c99")
-ADD_DEFINITIONS(-D__ALTERA_ARM__)
+ADD_DEFINITIONS(-D__ALTERA_ARM__ -Dsoc_cv_av)
 
 ################################################################################
 # Set architecture specific linker flags

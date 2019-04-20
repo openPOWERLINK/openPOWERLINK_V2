@@ -45,7 +45,7 @@ SET(LIB_ARCH_INCS
 # Set architecture specific definitions
 
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${ALT_${PROC_INST_NAME}_FLAGS} -fmessage-length=0 -mcpu=${CFG_${PROC_INST_NAME}_CPU_VERSION} -ffunction-sections -fdata-sections -fno-inline")
-ADD_DEFINITIONS(-D__C5SOC__ -D__ALTERA_ARM__)
+ADD_DEFINITIONS(-D__C5SOC__ -D__ALTERA_ARM__ -Dsoc_cv_av)
 
 ################################################################################
 # Set architecture specific installation files

@@ -285,8 +285,8 @@ architecture rtl of toplevel is
             ddr3_emif_0_pll_sharing_pll_addr_cmd_clk            : out   std_logic;
             ddr3_emif_0_pll_sharing_pll_avl_clk                 : out   std_logic;
             ddr3_emif_0_pll_sharing_pll_config_clk              : out   std_logic;
-            ddr3_emif_0_pll_sharing_pll_dr_clk                  : out   std_logic;
-            ddr3_emif_0_pll_sharing_pll_dr_clk_pre_phy_clk      : out   std_logic;
+            --ddr3_emif_0_pll_sharing_pll_dr_clk                  : out   std_logic;
+            --ddr3_emif_0_pll_sharing_pll_dr_clk_pre_phy_clk      : out   std_logic;
             ddr3_emif_0_pll_sharing_pll_mem_phy_clk             : out   std_logic;
             ddr3_emif_0_pll_sharing_afi_phy_clk                 : out   std_logic;
             ddr3_emif_0_pll_sharing_pll_avl_phy_clk             : out   std_logic;

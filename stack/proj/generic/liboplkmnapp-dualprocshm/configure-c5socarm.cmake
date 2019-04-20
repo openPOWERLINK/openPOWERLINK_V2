@@ -77,7 +77,7 @@ INCLUDE_DIRECTORIES(
 # Set additional target specific compile flags
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${ALT_HOST_CFLAGS} -fmessage-length=0 -ffunction-sections -fdata-sections -fno-inline")
 
-ADD_DEFINITIONS(-D__C5SOC__ -D__ALTERA_ARM__)
+ADD_DEFINITIONS(-D__C5SOC__ -D__ALTERA_ARM__ -Dsoc_cv_av)
 ################################################################################
 
 
